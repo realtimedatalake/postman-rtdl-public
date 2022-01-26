@@ -28,6 +28,28 @@
       "response": []
     },
     {
+      "name": "http://localhost:80/createStream - Local",
+      "id": "8d85b730-25ee-42c1-922f-eb81b444d92b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"active\": true,\n    \"message_type\": \"test-msg-local\",\n\t\"file_store_type_id\": 1,\n\t\"folder_name\": \"testFolderLocal\",\n    \"partition_time_id\": 1,\n    \"compression_type_id\": 1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:80/createStream"
+      },
+      "response": []
+    },
+    {
       "name": "http://localhost:80/getAllStreams",
       "id": "96c7b098-87b5-4389-b44f-34eeebbb5655",
       "protocolProfileBehavior": {
@@ -89,28 +111,6 @@
         "method": "GET",
         "header": [],
         "url": "http://localhost:80/getAllCompressionTypes"
-      },
-      "response": []
-    },
-    {
-      "name": "http://localhost:80/createStream - Local",
-      "id": "8d85b730-25ee-42c1-922f-eb81b444d92b",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n\t\"active\": true,\n    \"message_type\": \"test-msg-local\",\n\t\"file_store_type_id\": 1,\n\t\"folder_name\": \"testFolderLocal\",\n    \"partition_time_id\": 1,\n    \"compression_type_id\": 1\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": "http://localhost:80/createStream"
       },
       "response": []
     }
