@@ -6,28 +6,6 @@
   },
   "item": [
     {
-      "name": "http://localhost:80/getStream",
-      "id": "32d2289c-64c3-47ff-bc21-3b19b010d28c",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n    \"stream_id\": \"2f4e28c8-c0fd-46fa-abba-c33f2fd8b6f4\"\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": "http://localhost:80/getStream"
-      },
-      "response": []
-    },
-    {
       "name": "http://localhost:80/createStream - Local",
       "id": "8d85b730-25ee-42c1-922f-eb81b444d92b",
       "protocolProfileBehavior": {
@@ -46,6 +24,28 @@
           }
         },
         "url": "http://localhost:80/createStream"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:80/getStream",
+      "id": "32d2289c-64c3-47ff-bc21-3b19b010d28c",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"stream_id\": \"2f4e28c8-c0fd-46fa-abba-c33f2fd8b6f4\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:80/getStream"
       },
       "response": []
     },
