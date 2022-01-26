@@ -113,6 +113,28 @@
         "url": "http://localhost:80/getAllCompressionTypes"
       },
       "response": []
+    },
+    {
+      "name": "http://localhost:80/createStream - AWS",
+      "id": "1e57b886-0b27-4cbf-b87c-9cf537856654",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"active\": true,\n    \"message_type\": \"test-msg-aws\",\n\t\"file_store_type_id\": 2,\n\t\"region\": \"us-west1\",\n\t\"bucket_name\": \"testBucketAWS\",\n\t\"folder_name\": \"testFolderAWS\",\n    \"partition_time_id\": 1,\n    \"compression_type_id\": 1,\n\t\"aws_access_key_id\": \"[aws_access_key_id]\",\n    \"aws_secret_access_key\": \"[aws_secret_access_key]\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:80/createStream"
+      },
+      "response": []
     }
   ]
 }
