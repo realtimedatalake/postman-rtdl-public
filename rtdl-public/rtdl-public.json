@@ -201,6 +201,50 @@
         "url": "http://localhost:80/updateStream"
       },
       "response": []
+    },
+    {
+      "name": "http://localhost:80/activateStream",
+      "id": "2070ee0e-5db6-43d0-bf6e-44dff83cf329",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"stream_id\": \"2f4e28c8-c0fd-46fa-abba-c33f2fd8b6f4\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:80/activateStream"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:80/deactivateStream",
+      "id": "7961fcbe-9246-4370-ade6-66745fd3d5af",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"stream_id\": \"2f4e28c8-c0fd-46fa-abba-c33f2fd8b6f4\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:80/deactivateStream"
+      },
+      "response": []
     }
   ]
 }
