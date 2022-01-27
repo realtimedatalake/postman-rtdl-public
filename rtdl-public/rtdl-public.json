@@ -267,6 +267,28 @@
         "url": "http://localhost:80/getAllCompressionTypes"
       },
       "response": []
+    },
+    {
+      "name": "http://localhost:8080/ingest",
+      "id": "ba9f88d2-e52f-4c8e-a349-00a6dc0a19be",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"stream_id\":\"4f7a24ac-2313-4bdc-9222-f7facefd0fff\",\n    \"message_type\":\"testS3\",\n    \"payload\":{\n        \"name\":\"user4\",\n        \"array\":[4,5,6],\n        \"properties\":{\"age\":46}\n    }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:8080/ingest"
+      },
+      "response": []
     }
   ]
 }
