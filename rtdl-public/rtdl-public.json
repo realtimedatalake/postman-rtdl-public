@@ -245,6 +245,28 @@
         "url": "http://localhost:80/deactivateStream"
       },
       "response": []
+    },
+    {
+      "name": "http://localhost:80/deleteStream",
+      "id": "47ef684e-395c-4dc0-81aa-25a70e093a8a",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"stream_id\": \"2f4e28c8-c0fd-46fa-abba-c33f2fd8b6f4\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:80/deleteStream"
+      },
+      "response": []
     }
   ]
 }
