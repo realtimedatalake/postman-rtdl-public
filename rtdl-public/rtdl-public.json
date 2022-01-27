@@ -135,6 +135,28 @@
         "url": "http://localhost:80/getAllCompressionTypes"
       },
       "response": []
+    },
+    {
+      "name": "http://localhost:80/createStream - GCP",
+      "id": "afa74aeb-d679-486c-a9dc-50020d0e9132",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"active\": true,\n    \"message_type\": \"test-msg-gcp\",\n\t\"file_store_type_id\": 3,\n\t\"bucket_name\": \"testBucketGCP\",\n\t\"folder_name\": \"testFolderGCP\",\n    \"partition_time_id\": 1,\n    \"compression_type_id\": 1,\n\t\"gcp_json_credentials\": {\"type\": \"service_account\",\"project_id\": \"your_project\",\"private_key_id\": \"aayourkeyid0f62a75\",\"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCK4h6eyH27myYc\\nvJNmktB+zRths2yEPFgn3LJvmMuivr0MmlYynzekZsMdLfGK72e83FrBCpbr+JDo\\njFdX6oRWp6cSAr/KUmC+dhlsmGqvt0mF43Bs/B671L+hHueyG6jR9cyHkc4koaA9\\n4IOtuMV6GPLYyiOkK87anhGE3LsqGF1zJICu08zplaQGBCOnHS/jBsTO38fhyLQE\\nB8g7TLSJuH8CMf6j6S55a9QQdg2alQZnrOBh5BM34+2Mn3ME1s+7KgYJ2yV41OsX\\nhurVyxFOGCntm6txNz5RNag77jwgPUFR9QoQXPh0sn2RjclPr3R6zU68opMFrRHR\\nZQk1Q6qtAgMBAAECggEACtF8UyAI80EtodVqofyourkeyi7ctwk5YhxEU8aSem7UOLX77mlAZEPf+8LeG6N\\nkplZ25N0DWuQFcvjfnM7HkfIS9MmvKG+arN/blvTPiSNXie4yQQEk/D2KmRLTAcG\\nchJXCKRHzZ0gBfKnKkFJGujLgZQHI/Sc6gI+WgTVE8pSGfiKZTUcPxYYjFAdaVxz\\nJEKvLjfNJ4hRcx9CXtx55HPAKNrHTX25p96JEHmsFdvDC2a9twXuLiuMCQ0AP/JO\\nXCUPgflS+LFI4fXcM7DfMY5KVz6+3o6Js5fe5vXivQKBgQDEXx2JtbcL+Hpr/4BO\\nBQilFBKqXV/6DX8L/yourkeyiJR7QLhIpOpM3R\\naE1/DrONSlAuKYhItMRTkowVSmSUNLLUs+88vzESGajofXYyRS3PlUXAZ/W4K/66\\nTZNxtuLDF4CGuo2siLduthYrywKBgQC1Diu3lpunOMUVq9DBE9dLdoyt9PUpctCC\\nCVGMi0i/hjJTv9rcFKREtdND/cM65uwml0/C0qD+Dj4kH7J3IYigHChpktCcux0j\\nSJ+9+b5uBZ1f6A7x1J4MS/nx7ELBDx3/yourkey2jakN8NOhA4OAAuGvK9a\\nvxixRZ6kZwKBgDxxOlpEwE7C8IuFXSymh/6nqwcdLol81foOjrxX+0XiYbOzcJPM\\nA+poYFABtil8TxdG3SgEFfrllNyYBXHLNO9CyylWEk/jILugSD2hAdUbzNGBVvn5\\nWE3OW4BCvaax10up12vpekq6tPs3L3SQpC2AKVP7S+gsS6crfapqCXD5AoGAavYV\\nM59hE1hBbn0TlY0gKq+9imNllngC4F+a8rmyX5trDfkQ1eXH6eO1DLzU4m5b4qyP\\nbVw7yfsmEPc82o5QBa683Snj3kPYgei8nmH1c1AT2f3hHlLqj/8uiRJ3mVBR+405\\nXo5UQPo9sBzaHQfodPEk0HaMWKwNuEGe19N2Vk8CgYEAsSciDrr8oYLiHjx7R0gX\\nHT/7ClNNjWuWf58fzxyNVj4aDsatLZEYMjo+MQ6LIe6e/SRr7ubSRytrwOrctPFG\\nIaxcBZmE8XEnIiQ4CnEQSjmejbBVmkBF01u2RpejfSZfM/+SLPCimb0jIS44xybI\\nVlDwpSR1YU+8JAjgrBL+S4A=\\n-----END PRIVATE KEY-----\\n\",\"client_email\": \"rtdl-test@yoursa.iam.gserviceaccount.com\",\"client_id\": \"112794475542667351829\",\"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\"token_uri\": \"https://oauth2.googleapis.com/token\",\"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/rtdl-test%40yoursa.iam.gserviceaccount.com\"}\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:80/createStream"
+      },
+      "response": []
     }
   ]
 }
