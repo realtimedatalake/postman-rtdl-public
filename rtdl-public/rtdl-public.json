@@ -72,93 +72,6 @@
       "response": []
     },
     {
-      "name": "http://localhost:80/getStream",
-      "id": "32d2289c-64c3-47ff-bc21-3b19b010d28c",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n    \"stream_id\": \"2f4e28c8-c0fd-46fa-abba-c33f2fd8b6f4\"\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": "http://localhost:80/getStream"
-      },
-      "response": []
-    },
-    {
-      "name": "http://localhost:80/getAllStreams",
-      "id": "96c7b098-87b5-4389-b44f-34eeebbb5655",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": "http://localhost:80/getAllStreams"
-      },
-      "response": []
-    },
-    {
-      "name": "http://localhost:80/getAllActiveStreams",
-      "id": "e2daa9a5-1836-461e-9975-56b86b132234",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": "http://localhost:80/getAllActiveStreams"
-      },
-      "response": []
-    },
-    {
-      "name": "http://localhost:80/getAllFileStoreTypes",
-      "id": "3dc6b3f6-039c-4660-9271-3d662efe8f87",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": "http://localhost:80/getAllFileStoreTypes"
-      },
-      "response": []
-    },
-    {
-      "name": "http://localhost:80/getAllPartitionTimes",
-      "id": "bbd82528-1312-48af-b76f-383879f591de",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": "http://localhost:80/getAllPartitionTimes"
-      },
-      "response": []
-    },
-    {
-      "name": "http://localhost:80/getAllCompressionTypes",
-      "id": "371952c7-80d6-45ea-9862-b87691d90245",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "GET",
-        "header": [],
-        "url": "http://localhost:80/getAllCompressionTypes"
-      },
-      "response": []
-    },
-    {
       "name": "http://localhost:80/createStream - All fields",
       "id": "6df049ac-9812-44b7-8d2d-ff016ac2483e",
       "protocolProfileBehavior": {
@@ -265,6 +178,93 @@
           }
         },
         "url": "http://localhost:80/deleteStream"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:80/getStream",
+      "id": "32d2289c-64c3-47ff-bc21-3b19b010d28c",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"stream_id\": \"2f4e28c8-c0fd-46fa-abba-c33f2fd8b6f4\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://localhost:80/getStream"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:80/getAllStreams",
+      "id": "96c7b098-87b5-4389-b44f-34eeebbb5655",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:80/getAllStreams"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:80/getAllActiveStreams",
+      "id": "e2daa9a5-1836-461e-9975-56b86b132234",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:80/getAllActiveStreams"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:80/getAllFileStoreTypes",
+      "id": "3dc6b3f6-039c-4660-9271-3d662efe8f87",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:80/getAllFileStoreTypes"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:80/getAllPartitionTimes",
+      "id": "bbd82528-1312-48af-b76f-383879f591de",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:80/getAllPartitionTimes"
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:80/getAllCompressionTypes",
+      "id": "371952c7-80d6-45ea-9862-b87691d90245",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:80/getAllCompressionTypes"
       },
       "response": []
     }
