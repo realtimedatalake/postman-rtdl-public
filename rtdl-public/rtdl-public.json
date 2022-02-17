@@ -38,7 +38,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"active\": true,\n    \"message_type\": \"test-msg-aws\",\n\t\"file_store_type_id\": 2,\n\t\"region\": \"us-west1\",\n\t\"bucket_name\": \"testBucketAWS\",\n\t\"folder_name\": \"testFolderAWS\",\n    \"partition_time_id\": 1,\n    \"compression_type_id\": 1,\n\t\"aws_access_key_id\": \"[aws_access_key_id]\",\n    \"aws_secret_access_key\": \"[aws_secret_access_key]\"\n}",
+          "raw": "{\n\t\"active\": true,\n    \"message_type\": \"test-msg-aws\",\n\t\"file_store_type_id\": 2,\n\t\"region\": \"us-west-1\",\n\t\"bucket_name\": \"testBucketAWS\",\n\t\"folder_name\": \"testFolderAWS\",\n    \"partition_time_id\": 1,\n    \"compression_type_id\": 1,\n\t\"aws_access_key_id\": \"[aws_access_key_id]\",\n    \"aws_secret_access_key\": \"[aws_secret_access_key]\"\n}",
           "options": {
             "raw": {
               "language": "json"
