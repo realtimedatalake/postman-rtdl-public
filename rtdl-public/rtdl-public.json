@@ -82,7 +82,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n\t\"active\": true,\n    \"message_type\": \"test-msg-gcp\",\n\t\"file_store_type_id\": 3,\n\t\"bucket_name\": \"testBucketGCP\",\n\t\"folder_name\": \"testFolderGCP\",\n    \"partition_time_id\": 1,\n    \"compression_type_id\": 1,\n\t\"azure_storage_account_name\": \"\",\n    \"azure_storage_access_key\": \"\"\n}",
+          "raw": "{\n\t\"active\": true,\n    \"message_type\": \"test-msg-gcp\",\n\t\"file_store_type_id\": 3,\n\t\"bucket_name\": \"testBucketGCP\",\n\t\"folder_name\": \"testFolderGCP\",\n    \"partition_time_id\": 1,\n    \"compression_type_id\": 1,\n\t\"azure_storage_account_name\": \"[azure_storage_account_name]\",\n    \"azure_storage_access_key\": \"\"\n}",
           "options": {
             "raw": {
               "language": "json"
