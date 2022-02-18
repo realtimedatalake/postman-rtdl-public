@@ -170,7 +170,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"stream_id\": \"2f4e28c8-c0fd-46fa-abba-c33f2fd8b6f4\"\n}",
+          "raw": "{\n    \"stream_id\": \"[stream_id]\"\n}",
           "options": {
             "raw": {
               "language": "json"
