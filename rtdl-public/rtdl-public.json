@@ -7,7 +7,7 @@
   "item": [
     {
       "name": "http://localhost:80/createStream - Local",
-      "id": "8d85b730-25ee-42c1-922f-eb81b444d92b",
+      "_postman_id": "8d85b730-25ee-42c1-922f-eb81b444d92b",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -29,7 +29,7 @@
     },
     {
       "name": "http://localhost:80/createStream - AWS",
-      "id": "1e57b886-0b27-4cbf-b87c-9cf537856654",
+      "_postman_id": "1e57b886-0b27-4cbf-b87c-9cf537856654",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -51,7 +51,7 @@
     },
     {
       "name": "http://localhost:80/createStream - GCP",
-      "id": "afa74aeb-d679-486c-a9dc-50020d0e9132",
+      "_postman_id": "afa74aeb-d679-486c-a9dc-50020d0e9132",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -73,7 +73,7 @@
     },
     {
       "name": "http://localhost:80/createStream - Azure",
-      "id": "23e59a39-b97a-432c-a7b2-6076f3daca55",
+      "_postman_id": "23e59a39-b97a-432c-a7b2-6076f3daca55",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -95,7 +95,7 @@
     },
     {
       "name": "http://localhost:80/createStream - All fields",
-      "id": "6df049ac-9812-44b7-8d2d-ff016ac2483e",
+      "_postman_id": "6df049ac-9812-44b7-8d2d-ff016ac2483e",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -117,7 +117,7 @@
     },
     {
       "name": "http://localhost:80/updateStream",
-      "id": "7cc237b8-aa6e-400b-89ec-029e1713e34c",
+      "_postman_id": "7cc237b8-aa6e-400b-89ec-029e1713e34c",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -139,7 +139,7 @@
     },
     {
       "name": "http://localhost:80/deleteStream",
-      "id": "47ef684e-395c-4dc0-81aa-25a70e093a8a",
+      "_postman_id": "47ef684e-395c-4dc0-81aa-25a70e093a8a",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -161,7 +161,7 @@
     },
     {
       "name": "http://localhost:80/activateStream",
-      "id": "2070ee0e-5db6-43d0-bf6e-44dff83cf329",
+      "_postman_id": "2070ee0e-5db6-43d0-bf6e-44dff83cf329",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -183,7 +183,7 @@
     },
     {
       "name": "http://localhost:80/deactivateStream",
-      "id": "7961fcbe-9246-4370-ade6-66745fd3d5af",
+      "_postman_id": "7961fcbe-9246-4370-ade6-66745fd3d5af",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -205,7 +205,7 @@
     },
     {
       "name": "http://localhost:80/getStream",
-      "id": "32d2289c-64c3-47ff-bc21-3b19b010d28c",
+      "_postman_id": "32d2289c-64c3-47ff-bc21-3b19b010d28c",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -227,7 +227,7 @@
     },
     {
       "name": "http://localhost:80/getAllStreams",
-      "id": "96c7b098-87b5-4389-b44f-34eeebbb5655",
+      "_postman_id": "96c7b098-87b5-4389-b44f-34eeebbb5655",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -240,7 +240,7 @@
     },
     {
       "name": "http://localhost:80/getAllActiveStreams",
-      "id": "e2daa9a5-1836-461e-9975-56b86b132234",
+      "_postman_id": "e2daa9a5-1836-461e-9975-56b86b132234",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -253,7 +253,7 @@
     },
     {
       "name": "http://localhost:80/getAllFileStoreTypes",
-      "id": "3dc6b3f6-039c-4660-9271-3d662efe8f87",
+      "_postman_id": "3dc6b3f6-039c-4660-9271-3d662efe8f87",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -266,7 +266,7 @@
     },
     {
       "name": "http://localhost:80/getAllPartitionTimes",
-      "id": "bbd82528-1312-48af-b76f-383879f591de",
+      "_postman_id": "bbd82528-1312-48af-b76f-383879f591de",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -279,7 +279,7 @@
     },
     {
       "name": "http://localhost:80/getAllCompressionTypes",
-      "id": "371952c7-80d6-45ea-9862-b87691d90245",
+      "_postman_id": "371952c7-80d6-45ea-9862-b87691d90245",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -292,7 +292,7 @@
     },
     {
       "name": "http://localhost:8080/ingest",
-      "id": "ba9f88d2-e52f-4c8e-a349-00a6dc0a19be",
+      "_postman_id": "ba9f88d2-e52f-4c8e-a349-00a6dc0a19be",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
